@@ -3,7 +3,7 @@
     display: none;
 }
 
-header, main, footer {
+header, main, footer{
       padding-left: 300px;
 }
 
@@ -79,4 +79,9 @@ body {
 
 .vertical{
     vertical-align:middle;    
+}
+iframe {
+    display:block; 
+    width:100%; 
+    border:none;
 }

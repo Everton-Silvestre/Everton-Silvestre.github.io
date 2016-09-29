@@ -1,0 +1,34 @@
+.slider .indicators .indicator-item{
+    display: none;
+}
+
+.texto1{
+  font-family: 'BioRhyme', serif;
+     font-size: 30pt;
+ }
+.texto2{
+  font-family: 'BioRhyme', serif;
+     font-size: 10pt;
+ }
+.texto3{
+  font-family: 'BioRhyme', serif;
+  text-align: center;
+ }
+.texto4{
+    font-family: 'BioRhyme', serif;
+     font-size: 10pt;
+  
+}
+.ajuste{
+    padding-left: 15% ;
+    padding-right: 15%;
+}
+
+.vertical{
+    vertical-align:middle;    
+}
+iframe {
+    display:block; 
+    width:100%; 
+    border:none;
+}
