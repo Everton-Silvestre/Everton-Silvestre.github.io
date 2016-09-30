@@ -1,0 +1,277 @@
+*/* Usamos asteristico (*) para dizer que a formatação aplicada irá para todas as tags */ 
+{
+	margin:0px;
+	padding: 0px;
+}
+
+body{
+
+	background-image: url("../imagens/cafeteria10.jpg");
+	background-attachment: fixed;
+	background-size: 100%;
+
+}
+
+#estrutura /*Formatação da DIV que tem o ID estrutua. Todo ID é representado com o simbolo sustenido(#)*/
+
+{
+	background-color:#fff;
+	width: 1000px; /*Largura para 1000 pixels(px)*/
+	/*width: 1200px;*/
+	/*background-color:chocolate;*/
+	border: 1px solid #ddd; /*Aplicação de borda no estilo solido, ou seja uma simples, na cor cinza e fina(1)*/
+	border-radius: 10px;
+	/*para alinhar a DIV estrutura ao centro vamos aplicar uma margem automatica(auto) tanto para o lado esquerdo quanto para o lado direito*/
+	margin-left: auto;
+	margin-right: auto;		
+	
+}
+
+/*#conteudo{
+	width: 1000px;
+	background-color: #fff;
+	margin-left: auto;
+	margin-right: auto;	
+
+}*/
+
+
+#cabecalho
+
+{
+	height:250px; /*Definindo a altura para 250 px */
+	background-image: url("../imagens/cafe4.jpg"); /* .. (pasta raiz)*/
+	/*vamos movimentar a imagem de fundo com o comando background-position. utilizamos as coordenadas x e y para movimentá-la
+	Quando o x negativo a imagem irá para a esquerda , quando positivo irá para a direita. Y negativo , vai para cima e positivo, vai para baixo.*/
+	background-position: -400px -600px;
+	padding-top:10px;
+
+
+}
+
+#cabecalho h1
+{
+	/*font-family: "Marker Felt",arial;*/
+	font-family: 'Merienda One', cursive;
+	font-size: 40pt;
+	font-weight: lighter; /* Peso da fonte que pode variar entre 100 a 900 ou você pode utilizar os elementos: bold(negrito) ou bolder(negrito mais forte) ou lighter;
+*/
+	color:rgba(245,222,179,0.8);
+	text-align: left;
+	padding-top: 100px;	
+	padding-left: 40px;
+
+}
+
+#menu ul
+{ 
+	list-style: none; /* Aplicando a opção nenhum(nome) ao estilo da lista. Isso fará com que a lista não tenha marcadores*/
+	
+}
+#menu li
+{
+	display:inline-block; /* Apresenta-se em tela disposto em linha */
+	width: 245px;
+	/*height: 40px;*/
+	/*border: 1px solid;*/
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 15pt;
+	/*background-color: rgba(245,222,179,0.3);*/
+
+}
+
+#menu {
+	background-color: rgba(245,222,179,0.3);
+/*	background-image: url(../imagens/cafehomem.png);*/
+}
+
+#menu li a 
+
+{
+	color: chocolate;
+	/*font-family:"Marker Felt",arial;*/
+	font-family: 'Merienda One', cursive;
+	/*Vamos trabalhar com a decoração do texto, utilizamos o comando text-decoration
+	com as opções:
+	- None: Nenhum;
+	- Underline: Sublinhado;
+	- OverLine: Linha sobre ;
+	- Linethrought: Linha através(tachado), a linha fica no meio do texto;
+	- Blink - Faz o texto piscar. Funciona em alguns navegadores
+	*/
+	text-decoration: none;
+
+}
+
+#menu li a:hover{
+
+	/*color: brown;*/
+	text-decoration: underline;
+}
+
+#menu li:hover{
+
+background-color: rgba(245,222,173,0.8);
+
+}
+
+#rodape{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-color: rgba(245,222,179,0.3);
+	/*border: 1px solid;*/
+	text-align: center;
+	/*font-family: "Marker Felt",arial;*/
+	font-family: 'Merienda One', cursive;
+	font-size: 12pt;
+	font-weight: lighter;
+	color: #D26916;
+	letter-spacing: 2px;
+		
+}
+
+#rodape img{
+
+	width: 50px;
+	height: 50px;
+	margin: 10px;
+	opacity: 0.5;
+
+}
+
+#rodape img:hover{
+	opacity: 1;
+}
+
+.imgHome img{
+	/*text-align: center;*/
+	width: 250px;
+	height: 250px;
+	margin: 10px;
+	border-radius: 40%; /*Arredondar os quantos da imagem em 50% com a intenção de formar um circulo
+	*/
+	box-shadow: 5px 5px 10px #666;
+	opacity: 1;
+}
+
+.imgHome{
+	text-align: center;
+
+}
+
+.imgHome img:hover{
+	opacity: 0.8;
+}
+
+.texto1{
+	/*font-family: arial;*/
+	font-family: 'Merienda One', cursive;
+	font-size: 10pt;
+	line-height: 25px;/*Altura da linha. Isso cria um efeito de espaçamento entre linhas*/
+	text-align: justify; /* Alinhamento justificado*/
+	margin-bottom: 30px;
+	padding-right: 50px;
+	padding-left: 50px;
+}
+
+h2{
+	/*font-family: "Marker Felt",arial;*/
+	font-family: 'Merienda One', cursive;
+	font-size: 20pt;
+	margin:20px;
+	text-align: center;
+	color: chocolate;
+
+}
+
+#colunaEsquerda {
+	width: 500px;
+	float: left;
+	padding-bottom: 10px;
+}
+
+#colunaDireita img {
+	width: 200px;
+	height: 180px;
+	margin: 10px;
+}
+
+/*#colunaDireita{
+	width: 450px;
+	float: left;
+
+}*/
+
+form{
+	width: 800px;
+	margin-left:auto; 
+	margin-right:auto;
+	margin-bottom: 50px;
+}
+label{
+	/*font-weight: bold;*/
+	/*font-family: "Marker Felt",arial;*/
+	font-family: 'Merienda One', cursive;
+	color: chocolate ;
+	display: block;/*Quebra a linha e deixa um abaixo do outro*/
+
+}
+
+input[type=text]
+{
+	width: 700px;
+	padding: 5px;
+	border-radius: 10px;
+	margin-bottom: 10px;
+}
+input[type=email]{
+	width: 700px;
+	padding: 5px;
+	border-radius: 10px;
+	margin-bottom: 10px;
+
+}
+input[type=tel]{
+	width: 300px;
+	padding: 5px;
+	border-radius: 10px;
+	margin-bottom: 10px;
+
+}
+select{
+	width: 300px;
+	padding: 5px;
+	border-radius: 10px;
+	margin-bottom: 10px;
+	font-size: 12pt;
+	color: chocolate ;
+
+}
+
+textarea{
+	width: 700px;
+	height: 200px;
+	margin-bottom: 10px;
+
+}
+
+input[type=submit]{
+
+	display: block;
+	background-color: rgba(245,222,179,0.3);
+	padding: 20px;
+	/*border: 0px solid;*/
+	margin-right: auto; 
+	margin-left:auto;
+	font-family: "Marker Felt";
+	font-size: 14pt;
+	color: chocolate ;
+}
+
+.carousel-inner > .item > img {
+     width: 50%;
+	  margin: auto;
+
+}
