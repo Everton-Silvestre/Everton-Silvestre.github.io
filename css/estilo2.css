@@ -32,3 +32,10 @@ iframe {
     width:100%; 
     border:none;
 }
+
+.direita{
+    text-align: right;
+}
+.sponto{
+    list-style-type: none;
+}
